@@ -1,0 +1,57 @@
+import java.util.*;
+
+ // Compiler version JDK 11.0.2
+ 
+ /* 
+ 
+Void adalah method yang tidak memiliki nilai kembali/return, bisanya digunakan tidak untuk mencari nilai dalam suatu operasi, untuk mendeklarasikannya kita harus menembahkan kata kunci void.
+ 
+Agar method tersebut dapat berjalan, kita perlu mamanggilnya pada method main, kita harus membuat objek dari class yang kita gunakan terlibuih dahulu, lalu panggil pada method main. Contohnya seperti berikut ini:
+
+ */
+ 
+ 
+ 
+ 
+ 
+
+ class Dcoder
+ {
+   String name,masjid;
+  
+   public static void main(String args[])
+   { 
+    
+    
+    Dcoder mahluk= new Dcoder();
+
+    mahluk.hewan();
+ 
+   mahluk.hewan("bahlul");
+    
+    
+    
+   }
+   
+   void hewan(){
+    
+    name="bambang";
+    masjid="masjidil haram";
+     System.out.println("ini namanya " + name);
+     System.out.println("dia ingin kesana " + masjid);
+   }
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
